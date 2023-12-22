@@ -68,7 +68,7 @@ Berikut adalah topologi yang digunakan dalam metode CIDR dengan CPT
   
 - Giyuu
 
-
+![10  Giyuu](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87106838/752be3c7-feaa-4193-a021-0f2a55f3d821)
   
 - Rengoku
 
@@ -84,7 +84,86 @@ Berikut adalah topologi yang digunakan dalam metode CIDR dengan CPT
 
 ## Routing
 
+- Muzan
+```
+10.15.32.128/30 via 10.15.64.2
+10.15.32.0/25 via 10.15.64.2
+10.15.0.0/21 via 10.15.64.2
+10.15.8.0/25 via 10.15.64.2
+10.13.64.0/28 via 10.13.128.2
+10.13.0.0/21 via 10.13.128.2
+10.13.9.0/25 via 10.13.128.2
+10.13.8.0/24 via 10.13.128.2
+10.13.10.0/30 via 10.13.128.2
+10.13.16.0/30 via 10.13.128.2
+10.13.32.0/22 via 10.13.128.2
+10.13.64.16/30 via 10.13.128.2
+10.14.0.8/30 via 10.14.0.18
+10.14.0.0/29 via 10.14.0.18
+```
+
+- Daki
+```
+10.13.0.0/21 via 10.13.16.2
+10.13.8.0/24 via 10.13.16.2
+10.13.9.0/25 via 10.13.16.2
+10.13.10.0/30 via 10.13.16.2
+10.13.64.0/28 via 10.13.64.18
+0.0.0.0/0 via 10.13.128.1
+```
+
+- Yoriichi
+```
+10.15.32.0/25 via 10.15.32.130
+10.15.0.0/21 via 10.15.16.2
+10.15.8.0/25 via 10.15.16.2
+0.0.0.0/0 via 10.15.64.1
+```
+
+- Tamayo
+```
+0.0.0.0/0 via 10.13.16.1
+10.13.8.0/24 via 10.13.10.2
+10.13.9.0/25 via 10.13.10.2
+```
+
+- Akaza
+```
+0.0.0.0/0 via 10.14.0.17
+10.14.0.0/29 via 10.14.0.10
+```
+
+- Gyutarou
+```
+0.0.0.0/0 via 10.13.64.17
+```
+
+- Yushiro
+```
+0.0.0.0/0 via 10.13.10.1
+```
+
+- Douma
+```
+0.0.0.0/0 via 10.14.0.9
+```
+
+- Gyokko
+```
+0.0.0.0/0 via 10.15.16.1
+```
+
+- Hantengu
+```
+0.0.0.0/0 via 10.15.32.129
+```
+
 ## Testing
+
 Berikut testing dengan melakukan ping
 
+![testing](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87106838/58a46ea1-8d7a-47dd-9346-ae15c06a23b8)
+
 ## Kendala
+
+- Nguli
