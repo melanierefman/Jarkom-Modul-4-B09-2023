@@ -22,7 +22,15 @@ Berikut adalah topologi yang digunakan dalam metode CIDR dengan CPT
 
 ## Penggabungan IP
 
-![Penggabungan IP](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87106838/f2962821-ad18-448b-9713-f57d860992b7)
+![1](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87106838/d8dcd948-4a49-4a35-8bc6-462b5cfc60d4)
+![2](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87106838/50730ebc-8865-48c7-b1d9-817f20584eaf)
+![3](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87106838/bd4c4bba-32c0-41c8-b846-8cfd69cd67f4)
+![4](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87106838/b445b23f-3ba8-4b87-b549-f17fcd6c3cdb)
+![5](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87106838/58b5c14a-b391-4e0e-817d-2ec34018eba8)
+![6](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87106838/abc830f6-df34-48da-a0c3-0f9d9c3959d3)
+![8](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87106838/90d64c3b-89d9-4ee8-b446-cadb01d3c7ba)
+![9](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87106838/9d5a3063-2216-4ef3-91da-109d1acc8e11)
+![10](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87106838/a0f745ea-0e00-4ffd-802a-269ee244732c)
 
 ## Pembagian IP
 
