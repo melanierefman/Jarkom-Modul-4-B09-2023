@@ -20,6 +20,31 @@ Berikut adalah topologi yang digunakan dalam metode CIDR dengan CPT
 ## Pembagian IP
 
 ## Subneting
+- Kanao
+
+- Zenitsu
+  
+- Tanjiro
+  
+- Nezuko
+
+- Inosuke
+  
+- Genya
+  
+- Sanemi
+  
+- Obanai
+  
+- Mitsuri
+  
+- Giyuu
+  
+- Rengoku
+  
+- Ichiro
+  
+- Shinobu
 
 ## Routing
 
