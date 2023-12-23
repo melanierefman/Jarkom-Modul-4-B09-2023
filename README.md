@@ -172,6 +172,173 @@ Berikut testing dengan melakukan ping
 
 ![testing](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87106838/58a46ea1-8d7a-47dd-9346-ae15c06a23b8)
 
+
+## VLSM
+Untuk metode VLSM, kami menggunakan GNS3 sebagai platformnya
+
+## Topologi
+Berikut adalah topologi yang digunakan dalam metode VLSM dengan GSN3
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/0182b87f-1273-4a2a-aa1d-0a7147a599b8)
+
+## Tree VLSM
+Berikut adalah Tree dari metode VLSM yang sudah kami buat
+![TREE MODUL 4](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/e38d06ba-9709-40bb-874b-9d5c089615eb)
+Untuk lebih detailnya, dapat mengakses link miro kami :
+https://miro.com/app/board/uXjVN_zy_Ug=/
+
+## Pembagian IP
+Dari tree yang sudah dibuat, didapatkanlah pembagian IP pada masing masing subnet
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/8a08eb01-6e23-4178-9bf8-24086775fd68)
+
+## Config Node
+Setelah mendapatkan IP dari masing masing subnet, dilakukan config untuk masing masing Node untuk mendapatkan IP
+
+- Kanao
+
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/b8d508fc-82ba-4201-9d04-93f82aed7721)
+
+- Zenitsu
+
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/eec5625e-cfc3-4786-9523-5e3d9cb0acbb)
+
+  
+- Tanjiro
+
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/dc399351-fb4a-4c56-a0cb-31e7f86808b6)
+
+  
+- Nezuko
+
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/8230b7da-a5f1-4c93-aaf8-cf06b96ff553)
+
+
+- Inosuke
+
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/4fa74c20-bd2b-4b98-b87d-6d80543258e7)
+
+  
+- Genya
+
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/b1a32891-1167-44b3-8176-ba5b847a368b)
+
+  
+- Sanemi
+
+  ![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/2b002bad-7f1c-43b2-bbab-32d015629d2a)
+
+- Obanai
+
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/87851cd3-030f-4b0e-8d6e-056191875a7b)
+
+  
+- Mitsuri
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/dfc93f00-dc6a-4f70-a4ac-77696672a817)
+
+
+- Giyuu
+
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/1edbbd84-8344-4bd7-af66-fab3a9b4c287)
+
+  
+- Rengoku
+
+  ![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/d70dffaa-4d1e-4215-8c63-9e19e35d150b)
+
+- Muichiro
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/311e387a-6c4c-4f6a-b32f-344b1486aa70)
+
+- Shinobu
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/0c785d90-3107-49e8-b86d-6d61c0a5d5c2)
+
+## Routing
+- Muzan
+```
+#kiri
+route add -net 10.13.23.0 netmask 255.255.255.128 gw 10.13.31.217
+route add -net 10.13.31.248 netmask 255.255.255.252 gw 10.13.31.217
+route add -net 10.13.0.0 netmask 255.255.248.0 gw 10.13.31.217
+route add -net 10.13.20.0 netmask 255.255.254.0 gw 10.13.31.217
+route add -net 10.13.31.252 netmask 255.255.255.252 gw 10.13.31.217
+#kanan
+route add -net 10.13.31.200 netmask 255.255.255.252 gw 10.13.31.214
+route add -net 10.13.31.240 netmask 255.255.255.248 gw 10.13.31.214
+#bawah
+route add -net 10.13.31.224 netmask 255.255.255.240 gw 10.13.31.210
+route add -net 10.13.31.220 netmask 255.255.255.252 gw 10.13.31.210
+route add -net 10.13.16.0 netmask 255.255.252.0 gw 10.13.31.210
+route add -net 10.13.31.204 netmask 255.255.255.252 gw 10.13.31.210
+route add -net 10.13.31.192 netmask 255.255.255.252 gw 10.13.31.210
+route add -net 10.13.22.0 netmask 255.255.255.0 gw 10.13.31.210
+route add -net 10.13.23.128 netmask 255.255.255.128 gw 10.13.31.210
+route add -net 10.13.8.0 netmask 255.255.248.0 gw 10.13.31.210
+```
+
+- Yoriichi
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.13.31.218
+route add -net 10.13.23.0 netmask 255.255.255.128 gw 10.13.31.249
+route add -net 10.13.0.0 netmask 255.255.248.0 gw 10.13.31.254
+route add -net 10.13.20.0 netmask 255.255.254.0 gw 10.13.31.254
+```
+
+- Hartengu
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.13.31.250
+```
+
+- Gyokko
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.13.31.253
+```
+
+- Akaza
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.13.31.213
+route add -net 10.13.31.240 netmask 255.255.255.248 gw 10.13.31.202
+```
+
+- Douma
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.13.31.201
+```
+
+- Daki
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.13.31.209
+#kiri
+route add -net 10.13.31.224 netmask 255.255.255.240 gw 10.13.31.221
+#bawah
+route add -net 10.13.8.0 netmask 255.255.248.0 gw 10.13.31.206
+route add -net 10.13.31.192 netmask 255.255.255.252 gw 10.13.31.206
+route add -net 10.13.22.0 netmask 255.255.255.0 gw 10.13.31.206
+route add -net 10.13.23.128 netmask 255.255.255.128 gw 10.13.31.206
+```
+
+- Gyutarou
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.13.31.222
+```
+
+- Tamayo
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.13.31.205
+route add -net 10.13.22.0 netmask 255.255.255.0 gw 10.13.31.194
+route add -net 10.13.23.128 netmask 255.255.255.128 gw 10.13.31.194
+```
+
+- Yushiro
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.13.31.193
+```
+
+## Testing
+
+Berikut testing dengan melakukan ping pada Kanao dari Obanai
+![image](https://github.com/melanierefman/Jarkom-Modul-4-B09-2023/assets/87845735/6344cbd9-784a-4ee4-a121-e127cda4bca0)
+
+
+
 ## Kendala
 
 - Nguli
+- Dibutuhkan teknik fokus yang handal
